@@ -1,28 +1,49 @@
-# Portfolio Template
+# Adrian Knight - NextPhase IT Portfolio
 
-https://github.com/shaqdeff/Portfolio-Template/assets/92020713/eed76a82-e59d-440b-a04c-a2dc00a508b7
+**Founder of NextPhase IT | IT Solutions & Service Desk Expert**
 
-![portfolio-phone](https://github.com/shaqdeff/Portfolio-Template/assets/92020713/e41ed31c-50e5-40d3-a74f-9c0eb053fe7f)
-![portfolio-phone-3](https://github.com/shaqdeff/Portfolio-Template/assets/92020713/e8c23aa7-ac27-48fc-bf66-50ab00e3a64f)
+A professional portfolio showcasing Adrian Knight's expertise in IT infrastructure, Service Desk solutions, and technology consulting through NextPhase IT.
 
-I created this portfolio to use as my own but ended up doing something else entirely. However, instead of keeping it buried, I decided to put it up here on GitHub as an open-source resource to help individuals to learn, adapt, and create their own portfolios. Feel free to customize and modify the theme and components to suit your personal style and branding preferences.
+## 🎨 Template Attribution
+
+This portfolio is built using the excellent open-source template created by **[@shaqdeff](https://github.com/shaqdeff)**. 
+
+**Special thanks to [Shaquille Ndunda](https://github.com/shaqdeff)** for sharing this beautiful portfolio template as an open-source resource! The original template can be found at [shaqdeff/Portfolio-Template](https://github.com/shaqdeff/Portfolio-Template).
+
+### Original Template Features:
+- React.js with Three.js for 3D elements
+- Framer Motion for smooth animations
+- TailwindCSS for modern styling
+- Responsive design for all devices
+- Clean, professional layout
+
+## About NextPhase IT
+
+NextPhase IT specializes in:
+- **Service Desk Solutions** - Comprehensive IT service management platforms
+- **IT Infrastructure** - Modern, scalable technology solutions
+- **Business Process Automation** - Streamlining operations through technology
+- **Technology Consulting** - Strategic IT guidance for businesses
 
 ## License and Attribution
 
-The code in this repository is released under the [MIT](https://github.com/shaqdeff/Portfolio-Template/blob/90213d4887074d1d29434f706afad3d12fa33f5f/MIT.md) License, which grants you the freedom to use, modify, and distribute the template as your own. However, if you choose to use the site's design largely unmodified, kindly credit me as the original designer of the site.
+This portfolio is based on the original template by [@shaqdeff](https://github.com/shaqdeff), released under the [MIT License](https://github.com/shaqdeff/Portfolio-Template/blob/90213d4887074d1d29434f706afad3d12fa33f5f/MIT.md). 
 
-All projects and experiences included in this portfolio are the result of my own efforts and creativity. Please refrain from presenting them as your own.
+**Credit where credit is due:** The original design, structure, and core functionality comes from [Shaquille Ndunda](https://github.com/shaqdeff)'s excellent portfolio template. This version has been customized for Adrian Knight and NextPhase IT while maintaining the high-quality foundation provided by the original creator.
 
 ## Built With
 
-- React.js
-- Three.js
-- Framer Motion
-- TailwindCSS
+- **React.js** - Modern UI framework
+- **Three.js** - 3D graphics and animations
+- **Framer Motion** - Smooth page transitions and animations
+- **TailwindCSS** - Utility-first CSS framework
+- **TypeScript** - Type-safe development
+- **Vite** - Fast build tool and dev server
 
 ## Live Demo
 
-- Click [here](https://shaq-portfolio.netlify.app/) to view the live demo.
+- **NextPhase IT Portfolio**: [View Live Demo](https://nextphaseit.github.io/AdrianKnightPortfolio/)
+- **Original Template Demo**: [shaq-portfolio.netlify.app](https://shaq-portfolio.netlify.app/)
 
 ## Getting Started
 
@@ -83,11 +104,18 @@ npm run preview
 
 ## Authors
 
-👤 **Shaquille Ndunda**
+### 👤 **Adrian Knight** - Portfolio Owner
+**Founder & CEO of NextPhase IT**
+- GitHub: [@nextphaseit](https://github.com/nextphaseit)
+- Company: [NextPhase IT](https://github.com/nextphaseit)
+- Specialization: Service Desk Solutions, IT Infrastructure, Technology Consulting
 
+### 👨‍💻 **Shaquille Ndunda** - Original Template Creator
+**Template Designer & Developer**
 - GitHub: [@shaqdeff](https://github.com/shaqdeff)
 - Twitter: [@shaquillendunda](https://twitter.com/shaquillendunda)
 - LinkedIn: [Shaquille Ndunda](https://www.linkedin.com/in/shaquille-ndunda-b13a95107/)
+- **Original Template**: [Portfolio-Template](https://github.com/shaqdeff/Portfolio-Template)
 
 ## Feedback and Contributions
 
