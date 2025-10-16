@@ -5,8 +5,9 @@ import worldmap from './backgrounds/world-map.png';
 
 import logo from './logo/logo-black.png';
 import logotext from './logo/logo-text-black.png';
+import nextphaseLogo from './logo/nextphase-logo.png';
 
-import shaq from './personal/shaq.png';
+// Personal image will be added later
 
 import backend from './icons/backend.png';
 import ux from './icons/ux.png';
@@ -57,7 +58,8 @@ export {
   worldmap,
   logo,
   logotext,
-  shaq,
+  nextphaseLogo,
+  // shaq, // Personal image will be added later
   backend,
   ux,
   frontend,

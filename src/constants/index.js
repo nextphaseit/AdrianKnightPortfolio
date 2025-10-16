@@ -46,19 +46,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: 'Frontend Developer',
+    title: 'Service Desk Solutions',
     icon: frontend,
   },
   {
-    title: 'Backend Developer',
+    title: 'IT Infrastructure',
     icon: backend,
   },
   {
-    title: 'UI/UX Design',
+    title: 'Business Process Automation',
     icon: ux,
   },
   {
-    title: 'Software Prototyping',
+    title: 'Technology Consulting',
     icon: prototyping,
   },
 ];
@@ -124,47 +124,70 @@ const technologies = [
 
 const experiences = [
   {
-    title: 'Front-End Developer',
-    company_name: 'Cover Hunt',
+    title: 'Founder & CEO',
+    company_name: 'NextPhase IT',
     icon: coverhunt,
     iconBg: '#333333',
-    date: 'Aug 2021 - Feb 2022',
+    date: '2023 - Present',
   },
   {
-    title: 'Mentor (Volunteer)',
-    company_name: 'Microverse',
+    title: 'IT Solutions Architect',
+    company_name: 'NextPhase IT',
     icon: microverse,
     iconBg: '#333333',
-    date: 'Mar 2022 - May 2022',
+    date: '2022 - 2023',
   },
   {
-    title: 'Junior Software Engineer',
-    company_name: 'Kelhel',
+    title: 'Senior IT Consultant',
+    company_name: 'Previous Company',
     icon: kelhel,
     iconBg: '#333333',
-    date: 'May 2022 - Oct 2022',
+    date: '2020 - 2022',
   },
   {
-    title: 'Full Stack Developer',
-    company_name: 'Diversity Cyber Council',
+    title: 'Technology Specialist',
+    company_name: 'Previous Company',
     icon: dcc,
     iconBg: '#333333',
-    date: 'Sep 2022 - Present',
+    date: '2018 - 2020',
   },
 ];
 
 const projects = [
   {
     id: 'project-1',
-    name: 'KomiKult',
-    description: 'A comic characters list app that displays Marvel characters.',
+    name: 'Service Desk Portal',
+    description: 'A comprehensive IT service management platform built for NextPhase IT to streamline support operations and enhance customer experience.',
     tags: [
       {
         name: 'react',
         color: 'blue-text-gradient',
       },
       {
+        name: 'nodejs',
+        color: 'green-text-gradient',
+      },
+      {
         name: 'mongodb',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: komikult,
+    repo: 'https://github.com/nextphaseit/next-phase.portal.final',
+    demo: 'https://nextphaseit.github.io/next-phase.portal.final',
+  },
+  {
+    id: 'project-2',
+    name: 'NextPhase Portfolio',
+    description:
+      'A professional portfolio website built with TypeScript, showcasing NextPhase IT services and projects with modern design and animations.',
+    tags: [
+      {
+        name: 'react',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'typescript',
         color: 'green-text-gradient',
       },
       {
@@ -172,44 +195,21 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: komikult,
-    repo: 'https://github.com/shaqdeff/KomiKult',
-    demo: 'https://shaqdeff.github.io/KomiKult/',
-  },
-  {
-    id: 'project-2',
-    name: 'Leaderboard',
-    description:
-      'A leaderboard list app that displays scores submitted by different players.',
-    tags: [
-      {
-        name: 'react',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'restapi',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'scss',
-        color: 'pink-text-gradient',
-      },
-    ],
     image: leaderboard,
-    repo: 'https://github.com/shaqdeff/Leaderboard',
-    demo: 'https://shaqdeff.github.io/Leaderboard/',
+    repo: 'https://github.com/nextphaseit/nextphase-portfolio-final',
+    demo: 'https://nextphaseit.github.io/nextphase-portfolio-final',
   },
   {
     id: 'project-3',
-    name: 'Math Magicians',
-    description: 'This is a single-page calculator app built with React',
+    name: 'InnerClarity Client Portal',
+    description: 'A comprehensive client portal built with TypeScript for InnerClarity INC, providing secure access to services and resources.',
     tags: [
       {
-        name: 'nextjs',
+        name: 'typescript',
         color: 'blue-text-gradient',
       },
       {
-        name: 'supabase',
+        name: 'react',
         color: 'green-text-gradient',
       },
       {
@@ -218,53 +218,53 @@ const projects = [
       },
     ],
     image: math,
-    repo: 'https://github.com/shaqdeff/Math-Magicians',
-    demo: 'https://inspiring-medovik-37d3b3.netlify.app/',
+    repo: 'https://github.com/nextphaseit/InnerClarityINCClientPortal',
+    demo: 'https://nextphaseit.github.io/InnerClarityINCClientPortal',
   },
   {
     id: 'project-4',
-    name: 'Movie Metro',
-    description: `A single-page application that allows users to search for any movie or show's ratings and its details.`,
+    name: 'Strokes of Faith',
+    description: `A creative CSS-based project showcasing artistic design and frontend development skills with modern styling techniques.`,
     tags: [
       {
-        name: 'nextjs',
+        name: 'css',
         color: 'blue-text-gradient',
       },
       {
-        name: 'supabase',
+        name: 'html',
         color: 'green-text-gradient',
       },
       {
-        name: 'css',
+        name: 'javascript',
         color: 'pink-text-gradient',
       },
     ],
     image: movie,
-    repo: 'https://github.com/shaqdeff/Movie-Metro',
-    demo: 'https://movie-metro.netlify.app/',
+    repo: 'https://github.com/nextphaseit/StrokesofFaith',
+    demo: 'https://nextphaseit.github.io/StrokesofFaith',
   },
   {
     id: 'project-5',
-    name: 'Nyeusi Fest Site',
+    name: 'NextPhase Portal',
     description:
-      'This is a demo concert website for a music festival called Nyeusi.',
+      'The final version of the NextPhase portal, a comprehensive TypeScript-based solution for IT service management and client interactions.',
     tags: [
       {
-        name: 'nextjs',
+        name: 'typescript',
         color: 'blue-text-gradient',
       },
       {
-        name: 'supabase',
+        name: 'react',
         color: 'green-text-gradient',
       },
       {
-        name: 'css',
+        name: 'nodejs',
         color: 'pink-text-gradient',
       },
     ],
     image: nyeusi,
-    repo: 'https://github.com/shaqdeff/Nyeusi-Fest-Site',
-    demo: 'https://shaqdeff.github.io/Nyeusi-Fest-Site/',
+    repo: 'https://github.com/nextphaseit/nextphase-portfolio-final',
+    demo: 'https://nextphaseit.github.io/nextphase-portfolio-final',
   },
 ];
 

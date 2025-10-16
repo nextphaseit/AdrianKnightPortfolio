@@ -4,7 +4,7 @@ import emailjs from '@emailjs/browser';
 import { styles } from '../styles';
 import { SectionWrapper } from '../hoc';
 import { slideIn } from '../utils/motion';
-import { send, sendHover } from '../assets';
+import { send, sendHover, nextphaseLogo } from '../assets';
 
 const Contact = () => {
   const formRef = useRef();
@@ -33,9 +33,9 @@ const Contact = () => {
         'templateID', // paste your TemplateID here (you'll find it under email templates).
         {
           from_name: form.name,
-          to_name: 'YourName', // put your name here.
+          to_name: 'Adrian Knight', // put your name here.
           from_email: form.email,
-          to_email: 'youremail@gmail.com', //put your email here.
+          to_email: 'contact@nextphase-it.com', //put your email here.
           message: form.message,
         },
         'yourpublickey' //paste your Public Key here. You'll get it in your profile section.
@@ -43,7 +43,7 @@ const Contact = () => {
       .then(
         () => {
           setLoading(false);
-          alert('Thank you. I will get back to you as soon as possible.');
+          alert('Thank you for contacting NextPhase IT. Adrian will get back to you as soon as possible.');
 
           setForm({
             name: '',
@@ -66,8 +66,17 @@ const Contact = () => {
       <motion.div
         variants={slideIn('left', 'tween', 0.2, 1)}
         className="flex-[0.75] bg-jet p-8 rounded-2xl">
-        <p className={styles.sectionSubText}>Get in touch</p>
-        <h3 className={styles.sectionHeadTextLight}>Contact.</h3>
+        <div className="flex items-center gap-4 mb-6">
+          <img
+            src={nextphaseLogo}
+            alt="NextPhase IT Logo"
+            className="w-20 h-20 object-contain"
+          />
+          <div>
+            <p className={styles.sectionSubText}>Get in touch</p>
+            <h3 className={styles.sectionHeadTextLight}>Contact.</h3>
+          </div>
+        </div>
 
         <form
           ref={formRef}

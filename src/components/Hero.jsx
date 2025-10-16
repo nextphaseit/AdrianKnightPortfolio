@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { styles } from '../styles';
 import { navLinks } from '../constants';
-import { shaq, bwmap, worldmap } from '../assets';
+import { bwmap, worldmap } from '../assets';
 
 const Hero = () => {
   return (
@@ -36,18 +36,18 @@ const Hero = () => {
 
           <div>
             <h1
-              className={`${styles.heroHeadText} text-eerieBlack font-poppins uppercase`}>
+              className={`${styles.heroHeadText} text-white-100 font-poppins uppercase`}>
               Hi, I'm{' '}
               <span
-                className="sm:text-battleGray sm:text-[90px] 
-                text-eerieBlack text-[50px] font-mova
+                className="sm:text-cyan sm:text-[90px] 
+                text-white-100 text-[50px] font-mova
                 font-extrabold uppercase">
-                Shaquille
+                Adrian
               </span>
             </h1>
-            <p className={`${styles.heroSubText} mt-2 text-eerieBlack`}>
-              Lorem ipsum dolor sit amet. <br className="sm:block hidden" />
-              consectetur adipisicing elit deleniti, voluptas.
+            <p className={`${styles.heroSubText} mt-2 text-timberWolf`}>
+              Founder of NextPhase IT. <br className="sm:block hidden" />
+              Building innovative Service Desk solutions for modern businesses.
             </p>
           </div>
           <div
@@ -63,7 +63,7 @@ const Hero = () => {
           <a href="#about">
             <div
               className="w-[35px] h-[64px] rounded-3xl border-4 
-            border-french border-dim flex
+            border-cyan border-blue flex
             justify-center items-start p-2">
               <motion.div
                 animate={{
@@ -74,22 +74,13 @@ const Hero = () => {
                   repeat: Infinity,
                   repeatType: 'loop',
                 }}
-                className="w-3 h-3 rounded-full bg-taupe mb-1"
+                className="w-3 h-3 rounded-full bg-cyan mb-1"
               />
             </div>
           </a>
         </div>
 
-        {/* Your image comes here. Feel free to remove image if you don't plan to have one.*/}
-        <div>
-          <img
-            className="absolute bottom-0 ml-[50vw] 
-            lg:ml-[75vw] md:ml-[60vw] xmd:ml-[60vw] 2xl:ml-[83vw]
-            sm:h-[90vh] md:h-[70vh] xl:h-[80vh]"
-            src={shaq}
-            alt="shaquille"
-          />
-        </div>
+        {/* Personal image will be added later when professional headshot is available */}
       </section>
     </>
   );
